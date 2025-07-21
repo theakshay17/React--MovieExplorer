@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: "Inter", sans-serif, arial;
+}
+
+body{
+    background-color: #0D0D1A;
+    color: white;
+}
+
+.navbar{
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-brand h2{
+    font-size: 2.2rem;
+    cursor: pointer;
+}
+
+.links{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.Link{
+    color: white;
+    font-size: 1.2rem;
+    transition: color 0.2s ease;
+}
+
+.Link:hover{
+    color: #1E90FF;
+}
+
+.search-area{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.search-area input{
+    width: 60vh;
+    height: 40px;
+    background: transparent;
+    color: white;
+    border: 1px solid #1E90FF;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+
+.search-button{
+    padding: 5px 10px;
+    font-size: 0.88rem;
+    background: transparent;
+    color: white;
+    border: 1px solid #1E90FF;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.search-button:hover{
+    background-color: #1E90FF;
+
+}
+
+.text{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 120px;
+    font-size: 1.9rem;
+}
+
+span{
+    color: #1E90FF;
+}
+
+.container{
+    display: inline-block;
+    margin: 20px;
+}
+
+.movie-poster{
+    border-radius: 10px;
+}
+
+.moviecard-container{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.movie-description{
+    text-align: center;
+    opacity: 75%;
+}
+
+.movie-title{
+    padding-bottom: 5px;
+}
+
+.release-date{
+    font-size: .88rem;
+    font-weight: 300;
+    padding-bottom: 10px;
+}
+
+.like-button{
+    padding: 5px;
+    width: 100%;
+    border-radius: 10px;
+    color: white;
+    background: transparent;
+    border: 1px solid #1E90FF;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.like-button:hover{
+    background: #1E90FF;
+
+}
+
+.favText{
+    display: flex;
+    justify-content: space-between;
+}
+
+.remove-favorites{
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+.remove-favorites:hover{
+    color: #1E90FF;
+}
+
+.no-fav-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    height: 70vh;
+}
